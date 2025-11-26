@@ -27,7 +27,7 @@
 <meta property="og:description" content="经过一番搞搞震后，终于基本把这个个人网站搭起来了(OvO)。这篇谈谈我是如何搭建博客的，然后说说想写点什么。">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2025-11-25T03:40:00.000Z">
-<meta property="article:modified_time" content="2025-11-26T03:28:33.536Z">
+<meta property="article:modified_time" content="2025-11-26T03:36:44.942Z">
 <meta property="article:author" content="Lin">
 <meta name="twitter:card" content="summary">
 
@@ -196,7 +196,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2025-11-26 11:28:33" itemprop="dateModified" datetime="2025-11-26T11:28:33+08:00">2025-11-26</time>
+      <time title="Modified: 2025-11-26 11:36:44" itemprop="dateModified" datetime="2025-11-26T11:36:44+08:00">2025-11-26</time>
     </span>
 
   
@@ -206,14 +206,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>473</span>
+      <span>971</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>2 mins.</span>
+      <span>4 mins.</span>
     </span>
 </div>
 
@@ -226,6 +226,15 @@
     <div class="post-body" itemprop="articleBody"><p>经过一番搞搞震后，终于基本把这个个人网站搭起来了(OvO)。这篇谈谈我是如何搭建博客的，然后说说想写点什么。</p>
 <span id="more"></span>
 
+<p>搭建一个个人博客网站是我大一上就产生的想法——单纯只是觉得很多网民们的博客很酷，自己的碎碎念比较多，适合搞一个。</p>
+<p>当时好像还在犹豫是否要转码，还想假期学一点前端来着。但是寒假恶补人文知识（就是看剧啦~），一切和技术相关的都没碰。</p>
+<p>到第二个学期无法和焦虑和解，加上家里的人际关系出现了问题，怎么说呢，问题多多（，于是执行力几乎消失殆尽，就啥也没干——什么做项目啊、搭网站啊、打比赛啊都没做，就连课内的东西也没学好然后挂科了。</p>
+<p>这学期慢慢能把糟糕的情绪缝补好了，这会儿心血来潮就把博客搭起来了。由于苯人一点前端都不会，连git都没怎么用过，就照着网上的教学帖一步步做。主要是参照这篇：<a target="_blank" rel="noopener" href="https://xiechimon.github.io/2025/01/18/Hexo-NexT-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">Hexo + NexT + Github 搭建个人博客 | Xiechimon’s Blog</a>——将hexo部署在github上，并使用NexT中的gemini模板。还出现了一个小毛病：</p>
+<p>原来的hexo配置文件-deploy-repo的配置会让hexo和github连接不稳定（<code>Recv failure: Connection was reset</code>），于是参照了gemini的说法做了如下修改：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//原配置 (HTTPS):</span></span><br><span class="line">repo: https:<span class="comment">//github.com/Node0602/Node0602.github.io.git</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//新配置 (SSH):</span></span><br><span class="line">repo: git@github.com:Node0602/Node0602.github.io.git</span><br></pre></td></tr></table></figure>
+
+<p>现在还没搞tags——还没想好怎么分类呢ovo</p>
+<p>我大致的想法是把之前的碎碎念都搬上来，然后把接触到的硬件项目写上来（想看看港科开源和华工开源呢！从原理图设计到layout，吃透开源owo）。最近在学sdr，可能也会记点总结（？）；还想学一些基本的电控的（想自己做一辆遥控小车  <del>，挥霍大一立项经费</del>）。应该还会记一些思考——就是把之前记在思源笔记上的全都搬过来吧~</p>
 <p>搭建一个个人博客网站是我大一上就产生的想法——单纯只是觉得很多网民们的博客很酷，自己的碎碎念比较多，适合搞一个。</p>
 <p>当时好像还在犹豫是否要转码，还想假期学一点前端来着。但是寒假恶补人文知识（就是看剧啦~），一切和技术相关的都没碰。</p>
 <p>到第二个学期无法和焦虑和解，加上家里的人际关系出现了问题，怎么说呢，问题多多（，于是执行力几乎消失殆尽，就啥也没干——什么做项目啊、搭网站啊、打比赛啊都没做，就连课内的东西也没学好然后挂科了。</p>
@@ -285,7 +294,7 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">7 mins.</span>
+    <span title="Reading time total">9 mins.</span>
   </span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a>
